@@ -1,0 +1,5 @@
+# D3D
+# Autocorrelation function for 3D diffusion whit triplete
+
+# Eq Model
+g ~ (1+((B*exp(-(tau)/taub))/(1-B))) * ((G0) * ((1 + ((4 * D * tau)/(s ^ 2))) ^ (-1)) * ((1 + ((4 * D * tau)/((k^2) * (s^2)))) ^ (-1 / 2)))

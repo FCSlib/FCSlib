@@ -1,0 +1,12 @@
+# D3D
+# Autocorrelation function for 3D diffusion
+
+## Parameters
+# PSF S VALUE
+s = 0.3
+
+# PSF RATIO
+k = 3
+
+# Eq Model
+g ~ ((G0) * ((1 + ((4 * D * tau)/(s ^ 2))) ^ (-1)) * ((1 + ((4 * D * tau)/((k^2) * (s^2)))) ^ (-1 / 2)))

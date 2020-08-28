@@ -1,0 +1,12 @@
+# D3D Two Species
+# Autocorrelation function for 3D diffusion
+
+## Parameters
+# PSF S VALUE
+s = 0.27
+
+# PSF RATIO
+k = 3
+
+# Eq Model
+g ~ (G0) * (((Y) * ((1 + ((4 * D1 * tau)/(s ^ 2))) ^ (-1)) * ((1 + ((4 * D1 * tau)/((k^2) * (s^2)))) ^ (-1 / 2))) + ((1 - Y) * ((1 + ((4 * D2 * tau)/(s ^ 2))) ^ (-1)) * ((1 + ((4 * D2 * tau)/((k^2) * (s^2)))) ^ (-1 / 2))))
