@@ -1,1 +1,1 @@
-# FCSlib: Fluorescence fluctuation spectroscopy analysis for mobility, number, and molecular brightness in R
+# FCSlib: an open-source tool for fluorescence fluctuation spectroscopy analysis for mobility, number, and molecular brightness in R
