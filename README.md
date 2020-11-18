@@ -8,4 +8,4 @@ For bugs and/or errors reporting, navigate to the 'Issues' page of this reposito
 
 ### The FCSlib Team
 #### September 1st, 2020
-###### Build 1.2.1
+###### Build 1.3.0
